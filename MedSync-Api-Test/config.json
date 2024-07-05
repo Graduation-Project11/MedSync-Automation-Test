@@ -1,0 +1,51 @@
+{
+    "login_url": "https://medsyncbackend.smartwaveeg.com/api/login",
+    "email": "ranagaballah88@gmail.com",
+    "password": "123456789",
+    
+    "add_workplace_url": "https://medsyncbackend.smartwaveeg.com/api/doctor/add/workplace",
+    "request_sharing_access_url": "https://medsyncbackend.smartwaveeg.com/api/doctor/request/access/patient/profile",
+    "token": "926|LFJ5NusJE1KPKm6xMJoTxzWZpaNoy1sGiJm1v0oZ17df1f4e",
+    "workplace_data": {
+        "region" : "Dokki",
+        "country" : "Giza",
+        "check_up_price": 200,
+        "follow_up_price": 150,
+        "appointment_duration": 15,
+        "street": "123 Main St",
+        "description": "Main Clinic",
+        "work_days": [
+            {
+                "day": "Monday",
+                "start_hour": "9:00 PM",
+                "end_hour": "10:00 PM"
+            },
+            {
+                "day": "Sunday",
+                "start_hour": "9:00 AM",
+                "end_hour": "10:00 AM"
+            }
+        ]
+    },
+
+    "sharing_access_data": {
+        "patient_id": 123,
+        "appointment_id": 456
+    },
+    "specialties_recommendation_url": "https://medsyncbackend.smartwaveeg.com/api/patient/ai/geminiPro/medical-specialty-recommendation",
+    "recommendation_data": {
+        "user_input": "I have a severe headache and nausea."
+    },
+    "make_appointment_url": "https://medsyncbackend.smartwaveeg.com/api/patient/make/appointment",
+    "appointment_data": {
+        "doctor_id": 130,
+        "clinic_id": 211,
+        "appointment_day": "Monday",
+        "appointment_type": "check up",
+        "date": "7/5/2024",
+        "slot_id": 5,
+        "is_model_recommended": null,
+        "symptoms": null
+    }
+
+}
