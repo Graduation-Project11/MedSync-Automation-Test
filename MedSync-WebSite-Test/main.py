@@ -23,7 +23,4 @@ if __name__ == "__main__":
         print("Scenario test completed successfully.")
     else:
         print("Scenario test failed.")
-        
-if __name__ == "__main__":
-    config = load_config('config.json')
-    request_sharing_access_api(config)
+ 
